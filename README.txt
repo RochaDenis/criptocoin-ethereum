@@ -5,21 +5,22 @@
 
 ## Overview
 
-DIO Token is an ERC20-compliant token written in Solidity. This project demonstrates the implementation of a simple ERC20 token with basic functionality such as transfer, approval, allowance, and burning tokens. The smart contract is designed to operate on the Ethereum blockchain.
+DIO Token Is An ERC20-Compliant Token Written In Solidity. This Project Demonstrates The Implementation Of A Simple ERC20 Token With Basic Functionality Such As Transfer, Approval, Allowance, And Burning Tokens. The Smart Contract Is Designed To Operate On The Ethereum Blockchain.
 
 ## Features
 
-- **Total Supply**: The contract creates a fixed supply of 10 tokens at deployment.
-- **Balance Management**: Token balances are managed on a per-address basis.
-- **Token Transfer**: Allows token transfer between addresses.
-- **Approval and Allowance**: Enables delegation of token transfers by approving third-party addresses.
-- **Token Burning**: Users can permanently destroy tokens, reducing the total supply.
+- Total Supply: The Contract Creates A Fixed Supply Of 10 Tokens At Deployment.
+- Balance Management: Token Balances Are Managed On A Per-Address Basis.
+- Token Transfer: Allows Token Transfer Between Addresses.
+- Approval And Allowance: Enables Delegation Of Token Transfers By Approving Third-Party Addresses.
+- Token Burning: Users Can Permanently Destroy Tokens, Reducing The Total Supply.
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed on your local machine:
+Before You Begin, Ensure You Have The Following Installed On Your Local Machine:
 
-- **Node.js** and **npm**
-- **Truffle** or **Hardhat** (for deploying contracts)
-- **Ganache** (for local blockchain simulation)
-- **MetaMask** (for interacting with the blockchain)
+- Node.js And npm
+- Truffle Or Hardhat (For Deploying Contracts)
+- Ganache (For Local Blockchain Simulation)
+- MetaMask (For Interacting With The Blockchain)
+
