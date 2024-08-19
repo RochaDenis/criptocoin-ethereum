@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DIOCoin.sol": "I"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DIOCoin.sol": {
+			"keccak256": "0xd254eb7ef1a524d742d0bb8b17a62d7943f5676e731fb684a15aa2bcc9222a0f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://254be18c0a678857bc0094310aa3983915f1a87ce9475f4ec256ae361e80a1a2",
+				"dweb:/ipfs/Qmbs4oSHhpZ2bsANPFJ7Rq2ELZrbVgTqPsP1D8pPbxei2B"
+			]
+		}
+	},
+	"version": 1
+}
