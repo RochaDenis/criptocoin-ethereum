@@ -1,28 +1,28 @@
-REMIX DEFAULT WORKSPACE
+# DIO Token - ERC20 Implementation
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+![Solidity Version](https://img.shields.io/badge/solidity-%5E0.8.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-This workspace contains 3 directories:
+## Overview
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+DIO Token is an ERC20-compliant token written in Solidity. This project demonstrates the implementation of a simple ERC20 token with basic functionality such as transfer, approval, allowance, and burning tokens. The smart contract is designed to operate on the Ethereum blockchain.
 
-SCRIPTS
+## Features
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+- Total Supply: The contract creates a fixed supply of 10 tokens at deployment.
+- Balance Management: Token balances are managed on a per-address basis.
+- Token Transfer: Allows token transfer between addresses.
+- Approval and Allowance: Enables delegation of token transfers by approving third-party addresses.
+- Token Burning: Users can permanently destroy tokens, reducing the total supply.
 
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+## Prerequisites
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+Before you begin, ensure you have the following installed on your local machine:
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
+- Node.js and npm
+- Truffle or Hardhat (for deploying contracts)
+- Ganache (for local blockchain simulation)
+- MetaMask (for interacting with the blockchain)
 
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+
+
