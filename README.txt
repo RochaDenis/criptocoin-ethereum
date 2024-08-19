@@ -1,4 +1,4 @@
-# DIO Token - ERC20 Implementation
+#DIO Token - ERC20 Implementation
 
 ![Solidity Version](https://img.shields.io/badge/solidity-%5E0.8.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
